@@ -1,3 +1,5 @@
+gamemode adventure @a
+
 tag @a[tag=oni] remove oni
 tag @a[tag=kyouhan] remove kyouhan
 tag @a[tag=hito] remove hito
