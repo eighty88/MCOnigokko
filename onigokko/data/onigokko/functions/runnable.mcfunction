@@ -1,0 +1,1 @@
+execute if entity @e[tag=Controller] run function onigokko:ingamerunnable

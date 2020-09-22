@@ -1,0 +1,3 @@
+execute as @a[tag=hito,nbt={Inventory:[{"id":"minecraft:beacon"}]}] at @a[tag=hito,nbt={Inventory:[{"id":"minecraft:beacon"}]}] run particle campfire_signal_smoke ~ ~ ~ 1 1 1 1 500
+execute as @a[tag=hito,nbt={Inventory:[{"id":"minecraft:beacon"}]}] at @a[tag=hito,nbt={Inventory:[{"id":"minecraft:beacon"}]}] run playsound entity.generic.explode master @a ~ ~ ~ 10 1 2
+execute as @a[tag=hito,nbt={Inventory:[{"id":"minecraft:beacon"}]}] run kill @s
