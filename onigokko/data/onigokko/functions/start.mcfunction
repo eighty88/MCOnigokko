@@ -12,6 +12,7 @@ scoreboard objectives add timer dummy
 scoreboard objectives add timerT dummy
 scoreboard objectives add deaths deathCount
 scoreboard objectives add teiden minecraft.dropped:minecraft.sunflower
+scoreboard objectives add 20 dummy
 
 scoreboard objectives add Honki1 trigger
 scoreboard objectives add Honki2 trigger
@@ -26,6 +27,7 @@ bossbar set onigokko visible true
 
 execute as @a[tag=oni,limit=1] run summon armor_stand ~ ~3 ~ {Tags:["Controller","timer"]}
 scoreboard players set @e[tag=timer] timerT 25200
+scoreboard players set @e[tag=timer] 20 20
 
 title @a[tag=oni] subtitle {"text":"あなたは鬼です！","color":"aqua"}
 title @a[tag=kyouhan] subtitle {"text":"あなたは共犯者です！","color":"aqua"}
