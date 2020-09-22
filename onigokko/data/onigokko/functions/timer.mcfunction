@@ -16,8 +16,8 @@ execute as @e[tag=timer,scores={timerT=24000}] run title @a title ["START!"]
 execute as @e[tag=timer,scores={timerT=25180}] run title @a title ["準備時間"]
 
 execute store result bossbar minecraft:onigokko value run scoreboard players get @e[limit=1,tag=timer] timerT
-execute as @e[tag=timer,scores={timerT=20000..24000}] run scoreboard players set @e[tag=timer,limit=1] timerT 1000
-execute as @e[tag=timer,scores={timerT=10000..20000}] run scoreboard players set @e[tag=timer,limit=1] timerT 500
+execute as @e[tag=timer,scores={timerT=20000..24000}] run scoreboard players set @e[tag=timer,limit=1] timer 1000
+execute as @e[tag=timer,scores={timerT=10000..20000}] run scoreboard players set @e[tag=timer,limit=1] timer 500
 
 execute as @e[tag=timer,scores={timerT=-1}] run bossbar remove onigokko
 

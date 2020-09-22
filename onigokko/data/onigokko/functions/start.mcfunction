@@ -12,6 +12,7 @@ scoreboard objectives add timer dummy
 scoreboard objectives add timerT dummy
 scoreboard objectives add deaths deathCount
 scoreboard objectives add teiden minecraft.dropped:minecraft.sunflower
+scoreboard objectives add gankou minecraft.dropped:minecraft.ender_eye
 scoreboard objectives add 20 dummy
 
 scoreboard objectives add Honki1 trigger

@@ -8,6 +8,7 @@ execute as @e[tag=Controller,scores={deaths=1..}] if entity @a[tag=oni] run scor
 execute if entity @a[scores={deaths=1..}] run function onigokko:ondeath
 execute as @a[tag=hito,nbt={Inventory:[{"id":"minecraft:beacon"}]}] run function onigokko:mine
 execute if entity @a[scores={teiden=1..}] run function onigokko:teiden
+execute if entity @a[scores={gankou=1..}] run function onigokko:veyes
 
 kill @e[type=arrow,nbt={OnGround:true},tag=!t]
 

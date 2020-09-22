@@ -2,6 +2,7 @@ scoreboard objectives remove deaths
 scoreboard objectives remove timer
 scoreboard objectives remove timerT
 scoreboard objectives remove teiden
+scoreboard objectives remove gankou
 scoreboard objectives remove 20
 
 scoreboard objectives remove Honki1
