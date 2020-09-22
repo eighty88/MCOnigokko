@@ -7,6 +7,7 @@ execute as @e[tag=Controller] unless entity @a[tag=oni] run scoreboard players a
 execute as @e[tag=Controller,scores={deaths=1..}] if entity @a[tag=oni] run scoreboard players set @e[tag=Controller] deaths 0
 execute if entity @a[scores={deaths=1..}] run function onigokko:ondeath
 execute as @a[tag=hito,nbt={Inventory:[{"id":"minecraft:beacon"}]}] run function onigokko:mine
+execute if entity @a[scores={teiden=1..}] run function onigokko:teiden
 
 kill @e[type=arrow,nbt={OnGround:true},tag=!t]
 

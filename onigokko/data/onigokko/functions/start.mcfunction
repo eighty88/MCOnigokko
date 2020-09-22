@@ -9,6 +9,7 @@ tag @a[tag=!oni,tag=!kyounan] add hito
 scoreboard objectives add timer dummy
 scoreboard objectives add timerT dummy
 scoreboard objectives add deaths deathCount
+scoreboard objectives add teiden minecraft.dropped:minecraft.sunflower
 
 scoreboard objectives add Honki1 trigger
 scoreboard objectives add Honki2 trigger
@@ -37,7 +38,6 @@ team join onigokko @a
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamerule keepInventory false
-gamerule doImmediateRespawn true
 
 give @a[tag=oni] minecraft:iron_axe{display:{Name:'{"text":"殺人鬼用アイテム","italic":false}'},Unbreakable:1,Enchantments:[{id:"sharpness",lvl:1000},{id:"vanishing_curse",lvl:1}],HideFlags:63}
 give @a[tag=oni] minecraft:potion{display:{Name:'{"text":"殺人鬼用透明化","italic":false}'},CustomPotionEffects:[{Id:14,Amplifier:0,Duration:3600}],CustomPotionColor:65412}
