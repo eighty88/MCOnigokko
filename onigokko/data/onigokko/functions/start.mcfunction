@@ -25,6 +25,7 @@ bossbar set onigokko style notched_20
 bossbar set onigokko visible true
 
 execute as @a[tag=oni,limit=1] run summon armor_stand ~ ~3 ~ {Tags:["Controller","timer"]}
+scoreboard players set @e[tag=timer] timerT 25200
 
 title @a[tag=oni] subtitle {"text":"あなたは鬼です！","color":"aqua"}
 title @a[tag=kyouhan] subtitle {"text":"あなたは共犯者です！","color":"aqua"}
