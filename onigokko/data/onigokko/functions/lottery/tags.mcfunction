@@ -23,9 +23,9 @@ tag @a[tag=debuffpot] add itemc
 tag @a[tag=item,sort=random,limit=1] add gloweyes
 tag @a[tag=gloweyes] remove item
 tag @a[tag=gloweyes] add itemc
-#tag @a[tag=item,sort=random,limit=1] add Wunderbuffe
-#tag @a[tag=Wunderbuffe] remove item
-#tag @a[tag=Wunderbuffe] add itemc
+tag @a[tag=item,sort=random,limit=1] add Wunderbuffe
+tag @a[tag=Wunderbuffe] remove item
+tag @a[tag=Wunderbuffe] add itemc
 tag @a[tag=item,sort=random,limit=1] add switch
 tag @a[tag=switch] remove item
 tag @a[tag=switch] add itemc
