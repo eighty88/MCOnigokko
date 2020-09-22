@@ -22,6 +22,7 @@ clear @a
 
 kill @e[type=minecraft:item]
 kill @e[tag=Controller]
+kill @e[tag=m0]
 
 team remove onigokko
 

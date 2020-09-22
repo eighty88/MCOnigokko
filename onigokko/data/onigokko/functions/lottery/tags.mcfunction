@@ -33,4 +33,5 @@ tag @a[tag=item,sort=random,limit=1] add stick
 tag @a[tag=stick] remove item
 tag @a[tag=stick] add itemc
 execute if entity @a[tag=item] run function onigokko:lottery/tags
+execute unless entity @a[tag=item] run tag @a[tag=itemc] remove itemc
 execute unless entity @a[tag=item] run function onigokko:lottery/items
